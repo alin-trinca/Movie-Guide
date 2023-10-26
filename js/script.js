@@ -11,7 +11,7 @@ const getMovie = () => {
     return;
   }
 
-  const url = `http://www.omdbapi.com/?t=${encodeURIComponent(
+  const url = `https://www.omdbapi.com/?t=${encodeURIComponent(
     movieName
   )}&apikey=${key}`;
 
